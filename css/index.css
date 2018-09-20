@@ -1,0 +1,433 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 1200px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px auto;
+}
+
+a{
+	text-decoration:none;
+	color: black;
+}
+
+.clearfix{
+	clear: both;
+}
+
+hr{
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgba(218, 218, 218, 0.4);
+    padding: 0; 
+}
+
+
+/*---------------HEADER------------*/
+
+header{
+	width: 100%;
+	height: 80px;
+	top: 0px;
+}
+
+nav{
+	width: 80%;
+	padding: 25px 0px;
+	margin: 0px auto;
+}
+
+nav div.web-title{
+	font-size: 22px;
+	float: left;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
+nav div.web-title a{
+	color:#5a5a5a;
+}
+
+
+nav div.menu{
+	float: left;
+	margin-top:2px;
+	margin-left: 30px;
+	border-left: 1px solid #9a9a9a;
+	height:30px;
+}
+
+nav div ul{
+	list-style: none;
+	margin-top:5px;
+}
+
+nav div ul li{
+	display: inline;
+	padding: 0px 0px 0px 30px;
+}
+
+nav div ul li a{
+	color: #9a9a9a;
+}
+
+nav div.icon{
+	float: right;
+	margin-top:-10px;
+	font-size: 22px;
+	border: 2px solid #5a5a5a;
+	padding:8px 22px;
+	border-radius: 30px;
+}
+
+nav div.icon a{
+	color: #5a5a5a;
+}
+	
+div.container{
+	background-color: #ECECEC;
+	color:#ffffff;
+	height: 400px;
+	width: 100%;
+}
+
+div.container div.season{
+	width: 75%;
+	margin:auto;
+	line-height:45px;
+	padding-top: 120px;
+}
+
+div.container div.season h1{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 40px;
+	letter-spacing: 2px;
+}
+
+div.container div.season p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 21px;
+	word-spacing: 3px;
+	letter-spacing: 5px;
+}
+	
+div.container div.season button{
+	border-style: none;
+	margin-top: 30px;
+}
+div.container div.season a {
+    color: #708C97;
+    background-color: white;
+    padding: 15px 40px;
+	font-size: 20px;
+	font-family: Gadget, sans-serif;
+}
+	
+/*-------------------main--------------------*/
+	
+	
+main.container{
+	width:960px;
+	margin: 0px auto;
+}
+
+.products{ 
+	width: 960px;
+	
+}
+
+.products-value{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.products-value h3 { 
+	width:100%; 
+    text-align:center;
+    border-bottom: 1px solid #e7e7e7;   
+	line-height:0.1em;
+    margin:70px 0 50px;
+	color: #676767;
+	font-size: 20px;
+	font-family: Gadget, sans-serif;
+	letter-spacing: 0px;
+}
+  
+.products-value h3 span {
+    background:#fff; 
+    padding:0 15px; 
+}
+
+.products-body{
+	width: 960px;
+}
+.card{
+	width: 296px;
+	height: 350px;
+	border: 5px solid #F7F7F7;
+	text-align: center;
+	float: left;
+	line-height: 30px;
+}
+
+#card2{
+	margin-left: 20px;
+}
+
+#card3{
+	margin-left: 20px;
+}
+
+
+.card img.product-image{
+	width: 250px;
+	
+}
+
+.card p.product-name a{
+	font-family: Gadget, sans-serif;
+	color: #708C97;
+	
+}
+
+.card p.product-price{
+	color: #708C97;
+	font-family: 'Poppins', sans-serif;
+}
+
+.card p.product-price .main-price{
+	margin-bottom:10px;
+	font-size: 21px;
+}
+
+#products-value{
+	margin-top: 100px;
+}
+
+/*--------------BRAND----------------*/
+
+
+
+.brand{
+	width: 960px;
+	margin: 60px auto;
+}
+
+.brand .brand-item{
+	border:5px solid #F7F7F7;
+	width: 135px;
+	height:90px;
+	text-align: center;
+	float: left;
+	color: rgba(112, 140, 151, 0.3);
+}
+
+#brand-item-padding{
+	margin-left:58px;
+}
+
+.brand .brand-item h3 a{
+	color: rgba(112, 140, 151, 0.3);
+	font-family: ;
+	font-size: 22px;
+	letter-spacing: 2px;
+	
+}
+
+.brand .brand-item h3{
+	padding-top: 25px;
+	font-style: italic;
+}
+
+.brand .brand-item p{
+	font-size: 10px;
+	letter-spacing: 2px;
+	padding-top: 0px;
+	font-family: Gadget, sans-serif;
+}
+
+
+
+/*-----------------------FOOTER-----------------*/	
+	
+	
+footer.container{
+	background-color: #FBFBFB;
+	width: 1200px;
+	position:absolute;
+	
+}
+
+.footer-body{
+    width: 960px;
+    margin: auto;
+}
+
+/*----#### MAIN FOOTER ####----*/
+
+
+.main-footer{
+	width: 960px;
+	margin: 70px auto;
+}
+
+.main-footer-item{
+	width: 300px;
+	float: left;
+	
+}
+
+#main-footer-item-padding{
+	padding-left: 30px;
+}
+	
+.main-footer-item h3{
+	color: #676767;
+	font-size: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 0px;
+}
+
+.main-footer-item  P{
+	color: #708C97;
+}
+	
+.main-footer-item .item-para{
+	margin-top:30px;
+	line-height: 25px;
+	font-size:15px;
+	letter-spacing: 1px;
+}
+
+.number{
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 1px;
+}
+
+#number1{
+	font-size: 19px;
+	color: #676767;
+}
+	
+	
+/*  need icon style  */	
+
+
+
+	
+.main-footer-item p.item-para a{
+	font-size: 18px;
+}
+
+.main-footer-item p.item-para a.padding{
+	margin-left: 25px; 
+}
+
+.main-footer-item p.item-para a i.fa-facebook-f{
+	color: blue;
+}
+
+/*----------------FOOTER BLOG POSTS-----------------*/
+	
+	
+	
+	
+.blog-item{
+	margin-top: 30px;
+	line-height:19px;
+	letter-spacing:0.2px;
+}
+	
+.blog-header a{
+	color: #676767;
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 1px;
+}
+	
+.blog-header a.different-color{
+	color: #EE545E;
+}
+	
+.blog-body{	
+	font-size: 14px;
+	margin-top: 5px;
+	line-height: 17px;
+	letter-spacing: 0.7px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/*------------SUPPORT------------*/
+
+
+ul.option-divider{
+	list-style: none;
+	width: 140px;
+	float: left;
+	margin-top: 30px;
+	line-height: 30px;
+}
+
+ul.option-divider#option-divider2{
+	margin-left:20px;
+}
+
+.option-divider a{
+	color: #708C97;
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 1px;
+	font-size: 15px;
+}
+	
+.option-divider a.different-color{
+	color: #EE545E;
+}
+	
+	
+	
+/*---#### copyright FOOTER ####---*/	
+	
+	
+.copyright-footer{
+	margin: 20px 0px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.copyright-footer-left{
+	float: left;
+	font-size: 15px;
+	color: #708C97;
+	letter-spacing: 0.5px;
+}
+	
+.copyright-footer-left a{
+	color: #676767;
+	font-size: 16px;
+}
+
+.copyright-footer-right{
+	float: right;
+	margin-top:-5px;
+}
+
+.copyright-footer-right ul{
+	list-style: none;
+	
+}
+
+.copyright-footer-right ul li{
+	display: inline;
+	font-size:25px;
+}
+	
+.copyright-footer-right ul li a{
+	color: #708C97;
+}
+	
+.copyright-footer-right ul li a.padding{
+	margin-right:15px;
+}
