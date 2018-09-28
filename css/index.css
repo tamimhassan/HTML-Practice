@@ -4,7 +4,7 @@
 }
 
 body{
-	width: 1200px;
+	width: 100%;
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0px auto;
 }
@@ -36,7 +36,7 @@ header{
 }
 
 nav{
-	width: 80%;
+	width: 960px;
 	padding: 25px 0px;
 	margin: 0px auto;
 }
@@ -74,19 +74,30 @@ nav div ul li a{
 	color: #9a9a9a;
 }
 
-nav div.icon{
-	float: right;
-	margin-top:-10px;
-	font-size: 22px;
-	border: 2px solid #5a5a5a;
-	padding:8px 22px;
-	border-radius: 30px;
+nav div ul li a:hover{
+	color:#2068AB;
 }
 
-nav div.icon a{
-	color: #5a5a5a;
+
+nav a.shopping-icon {
+    background-color: white;
+    color: #5a5a5a;
+    height: 32px;
+    line-height: 32px;
+    border: 2px solid #5a5a5a;
+    font-size: 20px;
+    float: right;
+    display: inline;
+    margin-top: -10px;
+    padding: 8px 22px;
+    border-radius: 25px;
 }
-	
+
+nav a.shopping-icon:hover{
+	color: white;
+    background-color: #5a5a5a;
+}
+
 div.container{
 	background-color: #ECECEC;
 	color:#ffffff;
@@ -125,7 +136,11 @@ div.container div.season a {
 	font-size: 20px;
 	font-family: Gadget, sans-serif;
 }
-	
+
+div.container div.season a:hover {
+	background-color: #708C97;
+    color: white;
+}
 /*-------------------main--------------------*/
 	
 	
@@ -148,7 +163,7 @@ main.container{
 	width:100%; 
     text-align:center;
     border-bottom: 1px solid #e7e7e7;   
-	line-height:0.1em;
+	line-height:0em;
     margin:70px 0 50px;
 	color: #676767;
 	font-size: 20px;
@@ -256,7 +271,7 @@ main.container{
 	
 footer.container{
 	background-color: #FBFBFB;
-	width: 1200px;
+	width: 100%;
 	position:absolute;
 	
 }
@@ -326,7 +341,7 @@ footer.container{
 	margin-left: 25px; 
 }
 
-.main-footer-item p.item-para a i.fa-facebook-f{
+.main-footer-item p.item-para a i:hover{
 	color: blue;
 }
 
@@ -347,7 +362,7 @@ footer.container{
 	letter-spacing: 1px;
 }
 	
-.blog-header a.different-color{
+.blog-header a:hover{
 	color: #EE545E;
 }
 	
@@ -382,7 +397,7 @@ ul.option-divider#option-divider2{
 	font-size: 15px;
 }
 	
-.option-divider a.different-color{
+.option-divider a:hover{
 	color: #EE545E;
 }
 	
@@ -392,7 +407,7 @@ ul.option-divider#option-divider2{
 	
 	
 .copyright-footer{
-	margin: 20px 0px;
+	margin: 20px 0px 60px;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -427,7 +442,528 @@ ul.option-divider#option-divider2{
 .copyright-footer-right ul li a{
 	color: #708C97;
 }
-	
+
+.copyright-footer-right ul li a:hover{
+	color: #000000;
+}
 .copyright-footer-right ul li a.padding{
 	margin-right:15px;
 }
+
+
+
+
+
+
+
+/*------------MEDIA QUARY--------------*/
+
+
+
+
+
+@media (min-width:320px) and (max-width:479px){
+
+	body{
+		margin:0;
+		padding:0;
+		width: 100%;
+	}
+	
+/*--------------HEADER------------*/
+	
+	header{
+		height:110px;
+	}
+	
+	nav {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	
+	nav div.web-title {
+		font-size: 25px;
+		width:100%;
+		text-align:center;
+		margin: 20px 0px 5px 0px;
+	}
+	
+	nav div.menu {
+		float:left;
+		margin: 0;
+		width:78%;
+		font-size: 14px;
+		border-left:0;
+		margin-left:5%;
+	}
+	
+	nav div ul{
+		margin-top:10px;
+	}
+	
+	nav div ul li {
+		padding: 0% 0% 0% 4.5%;
+	}
+	
+	nav div ul li:first-child {
+		padding: 0px 0px 0px 0px;
+		
+	}
+	
+	nav a.shopping-icon {
+		border: 2px solid #5a5a5a;
+		font-size: 15px;
+		margin-top: 0px;
+		padding: 0px 14px;
+		border-radius: 25px;
+		max-width:12%;
+		margin-right: 1.73%;
+	}
+	
+	
+	/*-------------DIV-------------*/
+	
+	div.container div.season {
+		width: 75%;
+		line-height: 45px;
+		padding-top: 80px;
+	}
+	
+	div.container div.season h1 {
+		font-size: 30px;
+		letter-spacing: 1px;
+	}
+	
+	div.container div.season p {
+		font-size: 18px;
+		word-spacing: 2px;
+		letter-spacing: 0px;
+}
+	
+	
+/*---------------main--------------------*/
+	
+	main.container {
+		width: 100%;
+		
+	}
+	
+	.products {
+		width: 90%;
+		margin: 0 auto;
+	}
+	
+	.products-value {
+		width: 100%;
+	}
+	
+	.products-body {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.card {
+		width: 97.5%;
+		margin: 0 auto;
+	}
+	#card2 {
+		margin-left: 0px;
+		margin-top: 30px;
+	}
+	#card3 {
+		margin-left: 0px;
+		margin-top: 30px;
+	}
+	
+	.card img.product-image {
+		width: 280px;
+	}
+	
+	.brand {
+		width: 100%;
+		margin: 60px auto;
+	}
+	
+	.brand {
+		width: 90%;
+	}
+	
+	.brand .brand-item {
+		width: 41.6%;
+	}
+	
+	
+	#brand-item-padding {
+		margin-left: 0px;
+	}
+	
+	
+	#brand-item-padding:nth-child(2){
+		float: right;
+	}
+	
+	#brand-item-padding:nth-child(3){
+		margin-top: 30px;
+	}
+	
+	#brand-item-padding:nth-child(4){
+		float:right;
+		margin-top: 30px;
+	}
+	
+	
+	#brand-item-padding:nth-child(5){
+		margin-top: 30px;
+	}
+
+
+	
+/*--------------FOOTER-----------*/
+	
+	
+	.footer-body {
+		width: 90%;
+	}
+	
+	.main-footer {
+		width: 100%;
+	}
+	
+	.main-footer-item {
+		width: 100%;
+	}
+	
+	#main-footer-item-padding {
+		padding-left: 0px;
+		margin-top: 70px;
+	}
+	
+	.main-footer-item .item-para {
+		margin-top: 20px;
+		line-height: 20px;
+		font-size: 15px;
+	}
+	
+	ul.option-divider {
+		width: 45%;
+		float: left;
+		margin-top: 30px;
+		line-height: 30px;
+	}
+	
+	ul.option-divider#option-divider2 {
+		margin-left: 10%;
+	}
+	
+	.option-divider a {
+		font-size: 17px;
+	}
+	
+
+	
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:480px) and (max-width:767px){
+
+
+/*-------------HEADER------------*/
+
+
+
+	header {
+		height: 120px;
+	}
+	
+	nav{
+		width:100%;
+	}
+
+	nav div.web-title {
+		width: 100%;
+		text-align: center;
+		font-size: 25px;
+		margin: 0px 0px 5px 0px;
+		padding-bottom: 10px;
+	}
+
+	nav div.menu {
+		font-size: 16px;
+		margin-left: 8%;
+		border-left: 0px solid #000;
+		font-size: 15px;
+	}
+	
+	nav div ul li {
+		padding: 0px 0px 0px 25px;
+	}
+
+	nav a.shopping-icon {
+		border: 2px solid #5a5a5a;
+		font-size: 18px;
+		float: right;
+		display: inline;
+		margin-top: -4px;
+		margin-right: 5%;
+		padding: 0px 15px;
+		border-radius: 25px;
+	}
+	
+	
+
+
+
+/*----------------DIV-------------*/
+	
+	
+	
+	div.container div.season {
+		padding-top: 90px;
+	}
+	
+	div.container div.season h1 {
+		font-size: 35px;
+		letter-spacing: 1.5px;
+	}
+	
+	div.container div.season p {
+		font-size: 20px;
+		word-spacing: 0px;
+		letter-spacing: 2px;
+	}
+	
+	div.container div.season button {
+		margin-top: 25px;
+	}
+	
+	
+	
+	
+/*---------------main---------------*/
+	
+	
+	
+	main.container{
+		width: 100%;
+	}
+	
+	.products{
+		width: 90%;
+		margin: 0 auto;
+	}
+	
+	.products-value{
+		width: 80%;
+	}
+	
+	.products-body{
+		width: 100%;
+	}
+	
+	.card{
+		width: 45%;
+	}
+	
+
+	.card img.product-image {
+		width: 195px;
+	}
+	
+	#card2 {
+		float:right;
+	}
+	
+	#card3 {
+		margin-left: 0;
+		margin-top: 25px;
+	}
+	
+	.brand{
+		width: 90%;
+	}
+	
+	.brand .brand-item{
+		width: 28.00202465%;
+	}
+	
+	#brand-item-padding {
+		margin-left: 4.5319731235504%;
+	}
+	
+	#brand-item-padding:nth-child(4) {
+		margin-left: 0;
+		margin-top: 20px;
+	}
+	
+	#brand-item-padding:nth-child(5) {
+		margin-top: 20px;
+	}
+	
+	
+	
+/*-----------------FOOTER-------------*/
+	
+	
+	
+	.footer-body{
+		width: 90%;
+	}
+	
+	.main-footer {
+		width: 100%;
+	}
+	
+	
+	.main-footer-item {
+		width: 47.5%;
+	}
+	
+	.main-footer-item h3 {
+    font-size: 27px;
+	}
+	
+	#main-footer-item-padding {
+		padding-left: 5%;
+	}
+	
+	.blog-body {
+		font-size: 16px;
+	}
+	
+	#main-footer-item-padding:nth-child(3) {
+		padding-left: 0;
+		padding-top: 30px;
+		width:100%;
+	}
+	ul.option-divider {
+		width: 45%;
+	}
+	
+	
+	
+
+
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width:768px) and (max-width:1040px){
+	
+	nav{
+		width: 95%;
+	}
+	main.container {
+		width: 100%;
+	}
+	.products {
+		width: 95%;
+		margin: auto;
+	}
+	.products-body {
+		width: 100%;
+	}
+	.card {
+		width: 29.965%;
+	}
+	.card img.product-image {
+		width: 90%;
+	}
+	#card2 {
+		margin-left: 3%;
+	}
+	#card3 {
+		margin-left: 3%;
+	}
+	.brand {
+		width: 95%;
+	}
+	.brand .brand-item {
+		width: 16.23%;
+	}
+	#brand-item-padding {
+		margin-left: 3%;
+	}
+	.footer-body {
+		width: 100%;
+	}
+	.main-footer {
+		width: 95%;
+	}
+	
+	.main-footer-item {
+		width: 50%;
+	}
+	
+	#main-footer-item-padding {
+		padding-left: 0%;
+	}
+	
+	.main-footer-item h3 {
+    font-size: 30px;
+	}
+	
+	.main-footer-item .item-para {
+    font-size: 20px;
+	}
+	
+	.main-footer-item p.item-para a {
+		font-size: 22px;
+	}
+	
+	.blog-header a {
+		font-size: 19px;
+	}
+	
+	.blog-body {
+		font-size: 17px;
+	}
+	
+	.main-footer-item3{
+		width:95%;
+		margin-top:50px;
+	}
+	
+	ul.option-divider {
+		width: 30%;
+	}
+	
+	ul.option-divider#option-divider2 {
+		margin-left: 5%;
+	}
+	
+	.option-divider a {
+		font-size: 18px;
+	}
+		
+} 
+
+
+
+
+
+
+
+
+
+
